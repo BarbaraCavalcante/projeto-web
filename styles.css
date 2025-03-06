@@ -1,0 +1,295 @@
+
+/*parte do index */
+:root {
+    --cor-clara: #f2efe7; 
+    --cor-media: #6eacda; 
+    --cor-escura: #03346e; 
+    --cor-mais-escura: #021526; 
+}
+
+body {
+    background-color: var(--cor-clara); 
+    font-family: Apple Chancery, cursive;
+    font-size: 18px;
+    text-align: center;
+    
+    margin-top: 50px; 
+}
+
+#dive {
+    text-align: center; 
+}
+
+#dive img {
+    max-width: 100%;  
+    height: 450px;    
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;    
+    border-radius: 9px;
+    padding-bottom: 8px;
+    width: 808px;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-mais-escura); 
+    z-index: 1000;
+    padding: 10px 0; 
+    border-bottom: 2px solid var(--cor-media); 
+}
+
+
+.logo {
+    margin-left: 350px; 
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+
+.scrollmenu {
+  
+    white-space: nowrap;
+    margin-left: 20px; 
+    display: flex; 
+    justify-content: flex-start; 
+    flex-grow: 1; 
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    vertical-align: middle;
+    padding-top: 13px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+body {
+    padding-top: 100px; 
+}
+
+
+.scrollmenu {
+    height: 60px; 
+    line-height: 60px; 
+}
+
+.scrollmenu a:hover {
+    background-color: var(--cor-escura); 
+  padding-bottom: 70px;
+  
+
+}
+
+
+
+#Geografia {
+    color: var(--cor-escura);
+}
+
+#geos, #geoin, #introdução, #h1in, #h1in2, #h2in, #top3 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foto {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#footer {
+    background-color: var(--cor-mais-escura);
+    color: var(--cor-clara);
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.azul {
+    color: var(--cor-clara);
+    font-family: OCR A Std, monospace;
+    border: 5px solid var(--cor-escura);
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--cor-mais-escura);
+}
+
+.branco {
+    color: var(--cor-escura);
+    border: 5px solid var(--cor-media);
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--cor-clara);
+    font-family: OCR A Std, monospace;
+}
+
+.justifique {
+    text-align: justify;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bodyy {
+    background-color: var(--cor-clara);
+}
+
+#h1in {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1in2 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h2in {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top3 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/*final do index  */
+
+
+
+
+/* começo do exercicio */
+#body12 {
+    background-color: var(--cor-clara); 
+    
+    font-family: OCR A Std, monospace;
+    font-size: 16px;
+    text-align: center;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#exercicio {
+    color: beige;
+    border: 3px solid var(--cor-escura);
+    background-color: var(--cor-escura); 
+}
+
+#h1e {
+    border: 3px solid var(--cor-media);
+    background-color: var(--cor-clara); 
+}
+
+/* final do exercicio */
+
+/* começo do video */
+#bodyvideo {
+    font-family: OCR A Std, monospace;
+    font-size: 16px;
+    text-align: center;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: var(--cor-clara); 
+}
+
+#h3v {
+    color: var(--cor-mais-escura); 
+    background-color: var(--cor-clara); 
+    border: 3px solid var(--cor-media); 
+    padding: 2px;
+}
+
+#h3vi {
+    color: var(--cor-clara); 
+    background-color: var(--cor-escura); 
+    border: 3px solid var(--cor-mais-escura); 
+    padding: 2px;
+}
+
+#h2v {
+    color: var(--cor-mais-escura); 
+    background-color: var(--cor-clara); 
+    border: 3px solid var(--cor-media); 
+    padding: 3px;
+}
+
+#h1v {
+    color: beige;
+    background-color: var(--cor-escura); 
+    border: 3px solid var(--cor-mais-escura); 
+    padding: 2px;
+}
+
+/* final do video */
+
+/* começo do jogos */
+#bodyj {
+    background-color: var(--cor-clara); 
+    font-family: Apple Chancery, cursive;
+    font-size: 18px;
+    text-align: center;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.h2j {
+    color: beige;
+    background-color: var(--cor-escura); 
+    border: 3px solid var(--cor-escura); 
+    font-family: OCR A Std, monospace;
+}
+
+.h3j {
+    background-color: var(--cor-clara); 
+    border: 3px solid var(--cor-media); 
+    font-family: OCR A Std, monospace;
+}
+
+.h4j {
+    color: var(--cor-mais-escura); 
+}
+
+.botão {
+    color: var(--cor-escura); 
+}
+
+#h2ji {
+    background-color: var(--cor-escura); 
+    color: var(--cor-clara); 
+}
+/* final do jogos */
